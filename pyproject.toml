@@ -1,0 +1,21 @@
+[build-system]
+# TODO: Set up the build system
+
+[project]
+name = "mystic-oracle"
+version = "0.1.0"
+# TODO: Add your name and email
+authors = [
+    # {name = "Your Name", email = "you@example.com"},
+]
+description = "Mystic Oracle – random predictions for the desperate or amused."
+readme = "README.md"
+# TODO: Specify python version
+
+# No external dependencies needed
+dependencies = []
+
+# TODO (optional): Specify license (see the tutorial on specifying other metadata)
+
+# TODO (optional): Add project URLs like your GitHub repo (see the tutorial on specifying other metadata):
+# [project.urls]
