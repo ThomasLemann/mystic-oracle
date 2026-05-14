@@ -1,21 +1,25 @@
 [build-system]
 # TODO: Set up the build system
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
 
 [project]
-name = "mystic-oracle"
+name = "mystic_oracle"
 version = "0.1.0"
 # TODO: Add your name and email
 authors = [
-    # {name = "Your Name", email = "you@example.com"},
+    # {name = "Mikhail Morozov", email = "misham.morozov@gmail.com"},
 ]
 description = "Mystic Oracle – random predictions for the desperate or amused."
 readme = "README.md"
 # TODO: Specify python version
+requires-python = ">=3.9"
 
 # No external dependencies needed
 dependencies = []
 
 # TODO (optional): Specify license (see the tutorial on specifying other metadata)
+license = { text = "MIT" }
 
 # TODO (optional): Add project URLs like your GitHub repo (see the tutorial on specifying other metadata):
 # [project.urls]
